@@ -8,7 +8,7 @@ var curRestult;//当前计算的值
 var curValue;//当前计算器显示的值
 
 addEvent();
-
+//
 function addEvent() {
 	var btns = document.querySelectorAll(".buttons");
 	var len = btns.length;
