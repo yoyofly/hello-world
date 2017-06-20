@@ -14,8 +14,8 @@
 }
 
 .display{
-    width: 255px;
-    height: 50px;
+    width: 250px;
+    height: 60px;
     border: 1px solid black;
     overflow: hidden;
 }
@@ -25,7 +25,21 @@
     height: 208px;
 }
 
+.totalLabel{
+    width: 250px;
+    height: 20px;
+    text-align:right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .numLabel{
-    float:right;
-    font-size: 50px;
+    width: 250px;
+    height: 40px;
+    text-align:right;
+    font-size: 30px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
 }
