@@ -20,7 +20,6 @@ function addEvent() {
 	for (var i = 0; i < len; i++) {
 		var obj = btns[i];
 
-		console.log(parseInt('.'));
 		// if(typeof(parseInt(obj.id))=='number')
 		// {
 		// 	obj.addEventListener('pointerup',function () {
@@ -32,12 +31,12 @@ function addEvent() {
 
 		// }
 
+
 		switch (obj.id) {
 			case "0":
 				obj.addEventListener('pointerup', function () {
 
 					if (isChange == true) {
-
 						isChange = false;
 					}
 					else {
@@ -123,18 +122,7 @@ function addEvent() {
 				break;
 			case "-":
 				obj.addEventListener('pointerup', function () {
-					numLabel.value = "0";
-					curRestult = 0;
-					curValueString = 0;
-				})
-				break;
 			case "*":
-				obj.addEventListener('pointerup', function () {
-					numLabel.value = "0";
-					curRestult = 0;
-					curValueString = 0;
-				})
-				break;
 			case "/":
 				obj.addEventListener('pointerup', function () {
 					numLabel.value = "0";
